@@ -11,7 +11,7 @@ const int echoPin = 3;
 const int boton = 22;  // Sensor capacitivo (táctil)
 
 unsigned long previousMillis = 0; // Para almacenar el tiempo anterior
-const unsigned long interval = 180000; // 2 minutos y 32 segundos en milisegundos
+const unsigned long interval = 180000; // 3 minutos en milisegundos
 
 bool audioEsquivarReproducido = false; // Para controlar si el audio de esquivar ya se reprodujo
 
